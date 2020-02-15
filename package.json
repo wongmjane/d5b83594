@@ -1,0 +1,19 @@
+{
+  "name": "d5b83594",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "relay": "relay-compiler --src ./src --schema data/schema.graphql --language typescript --artifactDirectory ./src/__generated"
+  },
+  "devDependencies": {
+    "@types/relay-runtime": "^8.0.6",
+    "graphql": "^14.6.0",
+    "relay-compiler": "^9.0.0",
+    "relay-compiler-language-typescript": "^10.1.5",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "relay-runtime": "^9.0.0"
+  }
+}
